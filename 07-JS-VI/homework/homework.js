@@ -75,7 +75,7 @@ function filter(array) {
   //Devolver un nuevo array con los elementos que cumplen la condición
   //Tu código:
   var nuevoArray = [];
-  for (var key of array) {
+  for (var key of array) { //i indice of
     if(key[0] === "a") nuevoArray.push(key)
   }
   return nuevoArray;
